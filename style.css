@@ -1,0 +1,196 @@
+.L-1{
+    position: absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:60px;
+    left:650px;
+    top:150px;
+    animation-name: downtoup;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+    @keyframes downtoup{
+        from{
+            transform: translateX(300px);
+        }
+        to{
+            transform: translateX(0);
+    
+        }
+    }
+
+.line1{
+    height:500px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 10px 3px rgb(83, 82, 82);
+}
+.line2{
+    height:450px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line3{
+    height:400px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line4{
+    height:350px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line5{
+    height:300px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line6{
+    height:250px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line7{
+    height:220px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line8{
+    height:190px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+.line9{
+    height:140px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+    
+}
+.line10{
+    height:90px;
+    width:2px;
+    background-color: rgb(86, 86, 82);
+    box-shadow: 1px 1px 12px 3px rgb(83, 82, 82);
+}
+
+.bttn{
+   font-size: 13px;
+}
+.a{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left:640px;
+    top:95px;
+}
+.b{
+    position: absolute;
+    color: rgb(22, 21, 21);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left: 700px;
+    top:110px;
+}
+.c{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left:770px;
+    top: 110px;
+}
+.d{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left:825px;
+    top: 120px;
+
+}
+.e{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left: 885px;
+    top: 125px;
+}
+.f{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left: 950px;
+    top:130px ;
+}
+.g{
+    position: absolute;
+    color: #0c0101;
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left:1010px;
+    top:130px;
+    
+}
+.h{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    left:1073px;
+    top:127px;
+    
+}
+.i{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    right:380px;
+    top:128px;
+}
+.j{
+    position: absolute;
+    color: rgb(12, 1, 1);
+    background-color:rgb(153, 126, 91);
+    border-radius: 30px;
+    right: 317px;
+    top: 125px;
+
+}
+.label{
+    font-family: 'Ephesis', cursive;
+    color: burlywood;
+    top: 100px;
+    left:40px;
+    font-size:80px;
+    position: absolute;
+    animation-name: slideinleft;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes slideinleft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+
+    }
+}
+
+
